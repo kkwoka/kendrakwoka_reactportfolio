@@ -1,0 +1,22 @@
+#koda_img {
+    width: 250px;
+    margin: 20px;
+    /* margin-left: 50px; */
+    height: 280px;
+    border: solid black;
+
+}
+
+#kk_img {
+    width: 250px;
+    margin: 20px;
+    border: solid black;
+
+}
+
+#koda2_img {
+    width: 250px;
+    margin: 20px;
+    border: solid black;
+    height: 280px;
+}
