@@ -1,10 +1,10 @@
 import React from 'react';
-import './style.css'
+import './style.css';
 
 function Footer() {
     return (
         <footer className="footer">
-        <div class="card-footer text-muted">
+        <div className="card-footer text-muted">
             <p>Copyright &copy; </p>
         </div>
         </footer>

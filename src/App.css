@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 20px;
+  background-image: url('./Assets/Images/paisley.png');
+  /* background-color: black;
+  background:radial-gradient(#333,#000); */
+
+  /* background-color: wheat;
+  background:radial-gradient( rgb(255, 225, 185), rgb(240, 185, 151)); */
+}

@@ -10,14 +10,9 @@ function AboutMe() {
             <h1>About Me</h1>
 
             <br/>
-            {/* <img alt="koda_img" id="koda_img" src="../Assets/Images/KodaDork.jpg" /> */}
             <img alt="koda_img" id="koda_img" src={koda1}/>
             <img alt="kk_img" id="kk_img" src={kk} />
             <img alt="koda2_img" id="koda2_img" src={koda2_img} />
-
-
-            {/* <img alt="kk_img" id="kk_img" src="../Assets/Images/prof2copy.jpg" /> */}
-            {/* <img alt="koda2_img" id="koda2_img" src="../Assets/Images/KodaPretty2.jpg" /> */}
 
             <p className="bio" id="bio1">I received my B.S. in Communication Sciences and Disorders from the University of Texas at Austin in 2014. 
                 Upon graduating, I decided to travel with my pup, Koda (pictured above). 

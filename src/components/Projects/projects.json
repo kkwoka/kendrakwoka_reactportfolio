@@ -1,0 +1,79 @@
+[
+    {
+        "git": "https://github.com/kkwoka/Project_2",
+        "heroku": "https://fast-wildwood-12677.herokuapp.com/#/",
+        "img": "../../Assets/Images/covid.jpg",
+        "description": "COVID-19 Patient Portal: A Vue.js application to input patient information about COVID-19 testing.",
+        "name": "C-19"
+    },
+
+    {
+        "git": "https://github.com/kkwoka/Smorgas-Chord",
+        "heroku": "https://kkwoka.github.io/Smorgas-Chord/",
+        "img": "../../Assets/Images/smorg.png",
+        "description": "Smorgas-Chord: An application for new guitar players to learn how to play songs with both guitar chords and their lyrics.",
+        "name": "Smorgas-Chord"
+    },
+
+    {
+        "git": "https://github.com/kkwoka/ReadME_Generator",
+        "img": "../../Assets/Images/readme.webp",
+        "description": "README Generator: A javascript axios / inquirer application to create a quality readme.",
+        "name": "Readme Generator"
+    },
+
+    {
+        "git": "https://github.com/kkwoka/WeatherDashboard",
+        "heroku": "https://kkwoka.github.io/WeatherDashboard/",
+        "img": "../../Assets/Images/weather.jpg",
+        "description": "Weather Dashboard: A jquery application for viewing weather in any given city the user inputs.",
+        "name": "Weather Dashboard"
+    },
+
+    {
+        "git": "https://github.com/kkwoka/Eat-Da-Burger",
+        "heroku": "https://rocky-ocean-88521.herokuapp.com/",
+        "img": "../../Assets/Images/burger2.jpg",
+        "description": " Eat-Da-Burger: An application using handlebars.js / MVC / ORM for creating burgers you want to eat and eating them.",
+        "name": "Eat-Da-Burger"
+    },
+
+    {
+        "git": "https://github.com/kkwoka/passwordGenerator",
+        "heroku": "https://kkwoka.github.io/passwordGenerator/",
+        "img": "../../Assets/Images/password-big.png",
+        "description": "Password Generator: A javascript application for creating difficult passwords with multiple options for added protection.",
+        "name": "Password Generator"
+    },
+
+    {
+        "git": "https://github.com/kkwoka/JavaScript_Quiz",
+        "heroku": "https://kkwoka.github.io/JavaScript_Quiz/",
+        "img": "../../Assets/Images/quizz.jpg",
+        "description": "Quiz: A timed pop-culture javascript quiz",
+        "name": "Quiz"
+    },
+
+    {
+        "git": "https://github.com/kkwoka/OOP",
+        "img": "../../Assets/Images/effective-employee-management.jpg",
+        "description": "OOP Employee: A javascript Object-Oriented Programming application using node.js / inquirer / jest for creating employees.",
+        "name": "OOP Employee"
+    },
+
+    {
+        "git": "https://github.com/kkwoka/NoteTaker",
+        "heroku": "https://evening-thicket-00801.herokuapp.com/",
+        "img": "../../Assets/Images/notes.jpg",
+        "description": "Note Taker: A node.js / express.js application for taking and storing notes online.",
+        "name": "Note Taker"
+    },
+    
+    {
+        "git": "https://github.com/kkwoka/DailyPlanner",
+        "heroku": "https://kkwoka.github.io/DailyPlanner/",
+        "img": "../../Assets/Images/planner.png",
+        "description": "Day Planner: A jquery application for scheduling your current day.",
+        "name": "Day Planner"
+    }
+]

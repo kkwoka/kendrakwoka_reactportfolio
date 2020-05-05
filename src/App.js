@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Wrapper from "./components/Wrapper";
 import AboutMe from './pages/AboutMe/index';
 import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
+import Portfolio from './pages/Portfolio/index';
 import Footer from "./components/Footer/index";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
