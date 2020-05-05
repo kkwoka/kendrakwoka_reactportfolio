@@ -4,9 +4,9 @@ import './style.css';
 function Footer() {
     return (
         <footer className="footer">
-        <div className="card-footer text-muted">
-            <p>Copyright &copy; </p>
-        </div>
+            <div className="card-footer">
+                <p>Copyright &copy; </p>
+            </div>
         </footer>
     )
 }
