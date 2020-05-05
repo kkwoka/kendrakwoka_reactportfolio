@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="card-footer">
-                <p>Copyright &copy; </p>
+                <p class="copyright">Copyright &copy; </p>
             </div>
         </footer>
     )

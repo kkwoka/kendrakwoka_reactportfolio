@@ -21,7 +21,7 @@ import './style.css';
 
 function Technologies() {
     return (
-        <div className="card" id="knowImgs" style={{width: '75%'}}>
+        <div className="card" id="knowImgs">
             <div className="card-body">
                 <div className=" text-center">
                     <img alt="vue" src={vuePic} className="badges" />

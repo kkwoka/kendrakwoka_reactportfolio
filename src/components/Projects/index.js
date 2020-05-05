@@ -1,46 +1,43 @@
 import React from 'react';
 import projectsJSON from './projects.json';
-import covidPic from '../../Assets/Images/covid.jpg';
-import smorgasPic from '../../Assets/Images/smorg.png';
-import readmePic from '../../Assets/Images/readme.webp';
-import weatherPic from '../../Assets/Images/weather.jpg';
-import burgerPic from '../../Assets/Images/burger2.jpg';
-import passGenPic from '../../Assets/Images/password-big.png';
-import quizPic from '../../Assets/Images/quizz.jpg';
-import oopPic from '../../Assets/Images/effective-employee-management.jpg';
-import noteTakerPic from '../../Assets/Images/notes.jpg';
-import dayPlannerPic from '../../Assets/Images/planner.png'
+import { Col, Row, Container } from 'react-bootstrap'
+// import covidPic from '../../Assets/Images/covid.jpg';
+// import smorgasPic from '../../Assets/Images/smorg.png';
+// import readmePic from '../../Assets/Images/readme.webp';
+// import weatherPic from '../../Assets/Images/weather.jpg';
+// import burgerPic from '../../Assets/Images/burger2.jpg';
+// import passGenPic from '../../Assets/Images/password-big.png';
+// import quizPic from '../../Assets/Images/quizz.jpg';
+// import oopPic from '../../Assets/Images/effective-employee-management.jpg';
+// import noteTakerPic from '../../Assets/Images/notes.jpg';
+// import dayPlannerPic from '../../Assets/Images/planner.png'
 import './style.css';
-
-let pictureArray= [covidPic, smorgasPic, readmePic, weatherPic, burgerPic, passGenPic,quizPic, oopPic, noteTakerPic, dayPlannerPic ];
 
 function Projects() {
     return (
-        <div>
+        <Container>
+            <Row>
             {projectsJSON.map(project => {
-                let image = project.img;
-                console.log(image);
+                
                 return (
-                    <div className="col-sm-6" key={project.name}>
-                        {pictureArray.map(picture => 
-                            <img alt={project.name} src={picture} className="puppypics portCenter" />
-                        )}
-                        <div>
+                        <Col xs={6}  key={project.name}>
+                            <img key={project.id} alt={project.name} src={require(`../../Assets/Images/${project.name}.jpg`)} className="puppypics portCenter" />
+                            
                             <a className="projlabel" style={{textDecoration: 'none'}} href={project.git} target="_blank" rel="noopener noreferrer">
-                            Code
-                            </a>
-                        </div>
-                        <div>
+                                Code
+                                </a>
+
                             <a className="projlabel2" style={{textDecoration: 'none'}} href={project.heroku} target="_blank" rel="noopener noreferrer">
-                            Application
-                            </a>
-                        </div>
-                        <p className="description"><b>{ project.description }</b></p>
-                    </div>
+                                Application
+                                </a>
+
+                            <p className="description"><b>{ project.description }</b></p>
+                        </Col >
                 )
             })
         }
-        </div>
+            </Row>
+        </Container>
             
 
 

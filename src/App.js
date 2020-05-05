@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
+import Header from './components/Header/index.js';
 import Wrapper from "./components/Wrapper";
 import AboutMe from './pages/AboutMe/index';
-import Contact from './pages/Contact';
+import Contact from './pages/Contact/index';
 import Portfolio from './pages/Portfolio/index';
 import Footer from "./components/Footer/index";
 import { BrowserRouter as Router, Route } from "react-router-dom";
