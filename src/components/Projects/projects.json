@@ -4,7 +4,7 @@
         "git": "https://github.com/kkwoka/Project_2",
         "heroku": "https://fast-wildwood-12677.herokuapp.com/#/",
         "img": "../../Assets/Images/C-19.jpg",
-        "description": "COVID-19 Patient Portal: A Vue.js application to input patient information about COVID-19 testing.",
+        "description": "A Vue.js COVID-19 Patient Portal to input patient information about COVID-19 testing.",
         "name": "C-19"
     },
 
@@ -13,61 +13,61 @@
         "git": "https://github.com/kkwoka/Smorgas-Chord",
         "heroku": "https://kkwoka.github.io/Smorgas-Chord/",
         "img": "../../Assets/Images/Smorgas-Chord.jpg",
-        "description": "Smorgas-Chord: An application for new guitar players to learn how to play songs with both guitar chords and their lyrics.",
+        "description": "An application for new guitar players to learn how to play songs with both guitar chords and their lyrics.",
         "name": "Smorgas-Chord"
     },
 
     {
-        "id": 4,
+        "id": 3,
         "git": "https://github.com/kkwoka/WeatherDashboard",
         "heroku": "https://kkwoka.github.io/WeatherDashboard/",
         "img": "../../Assets/Images/Weather_Dashboard.jpg",
-        "description": "Weather Dashboard: A jquery application for viewing weather in any given city the user inputs.",
+        "description": "A jquery application for viewing weather in any given city the user inputs.",
         "name": "Weather_Dashboard"
     },
 
     {
-        "id": 5,
+        "id": 4,
         "git": "https://github.com/kkwoka/Eat-Da-Burger",
         "heroku": "https://rocky-ocean-88521.herokuapp.com/",
         "img": "../../Assets/Images/Eat-Da-Burger.jpg",
-        "description": " Eat-Da-Burger: An application using handlebars.js / MVC / ORM for creating burgers you want to eat and eating them.",
+        "description": "An application using handlebars.js / MVC / ORM for creating burgers you want to eat and eating them.",
         "name": "Eat-Da-Burger"
     },
 
     {
-        "id": 6,
+        "id": 5,
         "git": "https://github.com/kkwoka/passwordGenerator",
         "heroku": "https://kkwoka.github.io/passwordGenerator/",
         "img": "../../Assets/Images/Password_Generator.png",
-        "description": "Password Generator: A javascript application for creating difficult passwords with multiple options for added protection.",
+        "description": "A javascript application for creating difficult passwords with multiple options for added protection.",
         "name": "Password_Generator"
     },
 
     {
-        "id": 7,
+        "id": 6,
         "git": "https://github.com/kkwoka/JavaScript_Quiz",
         "heroku": "https://kkwoka.github.io/JavaScript_Quiz/",
         "img": "../../Assets/Images/Quiz.jpg",
-        "description": "Quiz: A timed pop-culture javascript quiz",
+        "description": "A timed pop-culture javascript quiz",
         "name": "Quiz"
     },
 
     {
-        "id": 9,
+        "id": 7,
         "git": "https://github.com/kkwoka/NoteTaker",
         "heroku": "https://evening-thicket-00801.herokuapp.com/",
         "img": "../../Assets/Images/Note_Taker.jpg",
-        "description": "Note Taker: A node.js / express.js application for taking and storing notes online.",
+        "description": "A node.js / express.js application for taking and storing notes online.",
         "name": "Note_Taker"
     },
     
     {
-        "id": 10,
+        "id": 8,
         "git": "https://github.com/kkwoka/DailyPlanner",
         "heroku": "https://kkwoka.github.io/DailyPlanner/",
         "img": "../../Assets/Images/Day_Planner.png",
-        "description": "Day Planner: A jquery application for scheduling your current day.",
+        "description": "A jquery application for scheduling your current day.",
         "name": "Day_Planner"
     }
 ]

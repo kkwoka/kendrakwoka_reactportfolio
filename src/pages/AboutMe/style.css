@@ -20,3 +20,17 @@
     border: solid black;
     height: 280px;
 }
+
+#aboutme {
+    width: 75%;
+    margin: auto;
+}
+
+#pictures {
+    width: 80%;
+    margin: auto;
+}
+
+#main {
+    margin-top: 20px;
+}

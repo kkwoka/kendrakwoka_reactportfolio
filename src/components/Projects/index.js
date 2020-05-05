@@ -31,7 +31,7 @@ function Projects() {
                                 Application
                                 </a>
 
-                            <p className="description"><b>{ project.description }</b></p>
+                            <p className="description"><b>{project.name}</b>: { project.description }</p>
                         </Col >
                 )
             })

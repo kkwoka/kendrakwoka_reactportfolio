@@ -1,4 +1,23 @@
 .kendra {
     font-size: 30px;
     font-family: 'URW Chancery L,  cursive';
+    text-transform: uppercase;
+}
+/* 
+.kwoka {
+    padding-left: 10px;
+} */
+
+/* .kendra::first-letter {
+    font-size: 40px
+} */
+
+.navbar-nav {
+    position: absolute;
+    right: 0px;
+    margin-left: 20px
+}
+
+.nav-item {
+    padding-left: 20px;
 }

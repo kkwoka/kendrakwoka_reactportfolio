@@ -10,18 +10,27 @@ function AboutMe() {
             <h1>About Me</h1>
 
             <br/>
-            <img alt="koda_img" id="koda_img" src={koda1}/>
-            <img alt="kk_img" id="kk_img" src={kk} />
-            <img alt="koda2_img" id="koda2_img" src={koda2_img} />
-
-            <p className="bio" id="bio1">I received my B.S. in Communication Sciences and Disorders from the University of Texas at Austin in 2014. 
-                Upon graduating, I decided to travel with my pup, Koda (pictured above). 
-                While traveling, I decided to return to school to pursue a career in coding / web development.
-                I will graduate from the Trilogy Educations Services' Full-Stack Coding Bootcamp (through the University of Texas at Austin) in May 2020. </p>
-            <p className="bio" id="bio2">Learning to become a Full-Stack Web Developer, I have built applications using many different languages, frameworks, and tools. 
-                A complete list of every tool in my coding arsenal will be found on my 'Portfolio' page. <b>My current goal is to become a Front End / Full Stack Web Developer </b>
-                for a company that allows me to utilize my skills in unique and challenging ways, as I aspire to work hard and push boundaries on new 
-                learnings and developments. </p>
+            <div id="aboutme">
+                <div id="pictures">
+                    <img alt="koda_img" id="koda_img" src={koda1}/>
+                    <img alt="kk_img" id="kk_img" src={kk} />
+                    <img alt="koda2_img" id="koda2_img" src={koda2_img} />
+                </div>
+                
+                <p className="bio" id="bio1">
+                    I received my Bachelor of Science in Communication Sciences and Disorders from the University of Texas at Austin in December 2014. 
+                    Upon graduating, I decided to travel with my pup, Koda (pictured above). 
+                    In 2019, I returned to UT Austin to pursue a new career in Web Development via a coding bootcamp. 
+                    I graduated from the Full-Stack Coding Bootcamp in May 2020.  
+                </p>
+                <p className="bio" id="bio2">
+                    Learning to become a Full-Stack Web Developer, I have built applications using many different languages, frameworks, and tools. 
+                    A complete list of every tool in my coding arsenal will be found on my 'Portfolio' page as well as several projects I have created / worked on.  
+                    My abilities to create progressive, detailed applications for mobile and web make me a strong asset on any team. 
+                    I am goal-oriented, dedicated, and work well on teams.
+                    
+                </p>
+            </div>
         </div>
     )
 }

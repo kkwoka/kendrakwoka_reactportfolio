@@ -5,6 +5,14 @@
     font-size: 22px;
 }
 
+.resources {
+    margin-top: 20px;
+}
+
+h1 {
+    padding: 10px;
+}
+
 /* .apiHeader {
     text-align: center;
     padding-bottom: 20px;
