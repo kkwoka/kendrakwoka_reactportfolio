@@ -1,16 +1,18 @@
 import React from 'react';
 import projectsJSON from './projects.json';
-// import covidPic from '../../Assets/Images/covid.jpg';
-// import smorgasPic from '../../Assets/Images/smorg.png';
-// import readmePic from '../../Assets/Images/readme.webp';
-// import weatherPic from '../../Assets/Images/weather.jpg';
-// import burgerPic from '../../Assets/Images/burger2.jpg';
-// import passGenPic from '../../Assets/Images/password-big.png';
-// import quizPic from '../../Assets/Images/quizz.jpg';
-// import oopPic from '../../Assets/Images/effective-employee-management.jpg';
-// import noteTakerPic from '../../Assets/Images/notes.jpg';
-// import dayPlannerPic from '../../Assets/Images/planner.png'
+import covidPic from '../../Assets/Images/covid.jpg';
+import smorgasPic from '../../Assets/Images/smorg.png';
+import readmePic from '../../Assets/Images/readme.webp';
+import weatherPic from '../../Assets/Images/weather.jpg';
+import burgerPic from '../../Assets/Images/burger2.jpg';
+import passGenPic from '../../Assets/Images/password-big.png';
+import quizPic from '../../Assets/Images/quizz.jpg';
+import oopPic from '../../Assets/Images/effective-employee-management.jpg';
+import noteTakerPic from '../../Assets/Images/notes.jpg';
+import dayPlannerPic from '../../Assets/Images/planner.png'
 import './style.css';
+
+let pictureArray= [covidPic, smorgasPic, readmePic, weatherPic, burgerPic, passGenPic,quizPic, oopPic, noteTakerPic, dayPlannerPic ];
 
 function Projects() {
     return (
@@ -20,7 +22,9 @@ function Projects() {
                 console.log(image);
                 return (
                     <div className="col-sm-6" key={project.name}>
-                        <img alt={project.name} src={image} className="puppypics portCenter" />
+                        {pictureArray.map(picture => 
+                            <img alt={project.name} src={picture} className="puppypics portCenter" />
+                        )}
                         <div>
                             <a className="projlabel" style={{textDecoration: 'none'}} href={project.git} target="_blank" rel="noopener noreferrer">
                             Code

@@ -6,3 +6,13 @@
 #mongodb, #expressjs {
     width: 100px;
 }
+
+#knowImgs {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+.row {
+    margin-top: 20px;
+}

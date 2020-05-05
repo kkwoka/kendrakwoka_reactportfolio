@@ -1,11 +1,7 @@
 import React from 'react';
 import Technologies from '../../components/Technologies/index';
 import Projects from '../../components/Projects/index';
-
-// const initialState = {
-//     projects: [],
-//     currentProject: {}
-// }
+import './style.css';
 
 function Portfolio() {
     return (
@@ -14,7 +10,7 @@ function Portfolio() {
                 <Technologies />
             </div>
             <div className="row portCenter">
-                <h1 className="col-sm-12">Portfolio</h1>
+                <h1>Portfolio</h1>
                 <div className="container-xs container-sm container-md container-lg container-xl wrapper">
                     <Projects />
                 </div>
