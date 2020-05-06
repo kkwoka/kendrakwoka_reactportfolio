@@ -4,15 +4,14 @@ import './style.css';
 
 function Header() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="kendra" >kendra kwoka</div>
-            {/* <div className="kwoka" >          KWOKA</div> */}
+        <nav className="navbar navbar-expand-lg navbar-light ">
+            <div className="kendra" >KENDRA KWOKA</div>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarText">
-                <ul className="navbar-nav mr-auto nav-tabs">
+                <ul className="navbar-nav mr-auto nav-tabs nav-fill">
                     <li className="nav-item">
                         <Link to='/aboutme' style={{textDecoration: 'none'}} className="nav-link">About</Link>
                     </li>
