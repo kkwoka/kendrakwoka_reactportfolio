@@ -3,58 +3,12 @@ import koda1 from '../../Assets/Images/KodaDork.jpg'
 import kk from '../../Assets/Images/prof2copy.jpg'
 import koda2_img from '../../Assets/Images/KodaPretty2.jpg'
 import './style.css';
-// import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-// import Grid from '@material-ui/core/Grid';
 
-
-// const useStyles = makeStyles((theme) => ({
-//     root: {
-//       flexGrow: 1,
-//     },
-//     paper: {
-//       padding: theme.spacing(2),
-//       textAlign: 'center',
-//       color: theme.palette.text.secondary,
-//     },
-// }));
 
 function AboutMe() {
-    // const classes = useStyles();
 
     return (
-        // <div className={classes.root} className="container-xs container-sm container-md container-lg container-xl wrapper" style={{marginTop: '20px'}} id="main">
-        //     {/* <Paper className={classes.paper}> */}
-        //         <h1>About Me</h1>
-        //         <Grid container spacing={2}>
-        //             <Grid item xs={5} className="grid1" >
-        //                 <div id="pictures">
-        //                     <img alt="koda_img" id="koda_img" src={koda1}/>
-        //                     <img alt="kk_img" id="kk_img" src={kk} />
-        //                     <img alt="koda2_img" id="koda2_img" src={koda2_img} />
-        //                 </div>
-        //             </Grid>
-        //             <Grid item xs={5} >
-        //                 <p className="bio" id="bio1">
-        //                     I received my Bachelor of Science in Communication Sciences and Disorders from the University of Texas at Austin in December 2014. 
-        //                     Upon graduating, I decided to travel with my pup, Koda (pictured above). 
-        //                     In 2019, I returned to UT Austin to pursue a new career in Web Development via a coding bootcamp. 
-        //                     I graduated from the Full-Stack Coding Bootcamp in May 2020.  
-        //                 </p>
-        //                 <p className="bio" id="bio2">
-        //                     Learning to become a Full-Stack Web Developer, I have built applications using many different languages, frameworks, and tools. 
-        //                     A complete list of every tool in my coding arsenal will be found on my 'Portfolio' page as well as several projects I have created / worked on.  
-        //                     My abilities to create progressive, detailed applications for mobile and web make me a strong asset on any team. 
-        //                     I am goal-oriented, dedicated, and work well on teams.
-                            
-        //                 </p>
-        //             </Grid>
-        //         </Grid>
-        //     {/* </Paper> */}
-        // </div>
-
-
-
         <div id="main" className="container-xs container-sm container-md container-lg container-xl wrapper">
             <h1>About Me</h1>
 
@@ -82,14 +36,14 @@ function AboutMe() {
                     <h4>A Breakdown of Skills:</h4>
                     <li>1 year in client side programming using <b>HTML, CSS, JavaScript, and AJAX</b></li>
                     <li>1 year experience with <b>NodeJS</b></li>
-                    <li>DBMS experience with <b>MySQl and Mongo</b></li>
+                    <li>DBMS experience with <b>MySQL and Mongo</b></li>
                     <li>1 year experience in mobile development for <b>IOS and Android</b> with <b>ReactJS</b></li>
-                    <li>1 year experience creating single-page applications with <b>VUE.js</b></li>
+                    <li>1 year experience creating single-page applications with <b>Vue.js</b></li>
                     <li>Worked in several teams using <b>Agile methodologies and SCRUM</b></li>
                     <li>Experience with structured formats in <b>JSON</b> and <b>XML</b></li>
                     <li>Code management using <b>GIT</b></li>
                     <li>Excel in work ethics</li>
-                    <li>Detial-oriented and enthusiastic professional with <b>strong technical and analytical skills</b></li>
+                    <li>Detail-oriented and enthusiastic professional with <b>strong technical and analytical skills</b></li>
                     <li>5+ years leadership/management experience</li>
 
                 </ul>
