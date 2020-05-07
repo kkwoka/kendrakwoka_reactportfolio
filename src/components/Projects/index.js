@@ -20,7 +20,7 @@ function Projects() {
             {projectsJSON.map(project => {
                 return (
                     <Col xs={6}  key={project.name}>
-                        <img key={project.id} alt={project.name} src={require(`../../Assets/Images/${project.name}.jpg`)} className="puppypics portCenter" />
+                        <img key={project.id} alt={project.name} src={require(`../../Assets/Images/${project.picName}.jpg`)} className="puppypics portCenter" />
                         
                         <a className="projlabel" style={{textDecoration: 'none'}} href={project.git} target="_blank" rel="noopener noreferrer">
                             Code

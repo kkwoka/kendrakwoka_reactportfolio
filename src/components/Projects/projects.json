@@ -5,6 +5,7 @@
         "heroku": "https://fast-wildwood-12677.herokuapp.com/#/",
         "img": "../../Assets/Images/C-19.jpg",
         "description": "A Vue.js COVID-19 Patient Portal to input patient information about COVID-19 testing.",
+        "picName": "C-19",
         "name": "C-19"
     },
 
@@ -14,6 +15,7 @@
         "heroku": "https://kkwoka.github.io/Smorgas-Chord/",
         "img": "../../Assets/Images/Smorgas-Chord.jpg",
         "description": "An application for new guitar players to learn how to play songs with both guitar chords and their lyrics.",
+        "picName": "Smorgas-Chord",
         "name": "Smorgas-Chord"
     },
 
@@ -23,7 +25,8 @@
         "heroku": "https://kkwoka.github.io/WeatherDashboard/",
         "img": "../../Assets/Images/Weather_Dashboard.jpg",
         "description": "A jquery application for viewing weather in any given city the user inputs.",
-        "name": "Weather_Dashboard"
+        "picName": "Weather_Dashboard",
+        "name": "Weather Dashboard"
     },
 
     {
@@ -32,6 +35,7 @@
         "heroku": "https://rocky-ocean-88521.herokuapp.com/",
         "img": "../../Assets/Images/Eat-Da-Burger.jpg",
         "description": "An application using handlebars.js / MVC / ORM for creating burgers you want to eat and eating them.",
+        "picName": "Eat-Da-Burger",
         "name": "Eat-Da-Burger"
     },
 
@@ -41,7 +45,8 @@
         "heroku": "https://kkwoka.github.io/passwordGenerator/",
         "img": "../../Assets/Images/Password_Generator.png",
         "description": "A javascript application for creating difficult passwords with multiple options for added protection.",
-        "name": "Password_Generator"
+        "picName": "Password_Generator",
+        "name": "Password Generator"
     },
 
     {
@@ -50,6 +55,7 @@
         "heroku": "https://kkwoka.github.io/JavaScript_Quiz/",
         "img": "../../Assets/Images/Quiz.jpg",
         "description": "A timed pop-culture javascript quiz",
+        "picName": "Quiz",
         "name": "Quiz"
     },
 
@@ -59,7 +65,8 @@
         "heroku": "https://evening-thicket-00801.herokuapp.com/",
         "img": "../../Assets/Images/Note_Taker.jpg",
         "description": "A node.js / express.js application for taking and storing notes online.",
-        "name": "Note_Taker"
+        "picName": "Note_Taker",
+        "name": "Note Taker"
     },
     
     {
@@ -68,6 +75,7 @@
         "heroku": "https://kkwoka.github.io/DailyPlanner/",
         "img": "../../Assets/Images/Day_Planner.png",
         "description": "A jquery application for scheduling your current day.",
-        "name": "Day_Planner"
+        "picName": "Day_Planner",
+        "name": "Day Planner"
     }
 ]

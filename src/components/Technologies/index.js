@@ -17,6 +17,8 @@ import ajaxPic from '../../Assets/Images/ajax.png';
 import githubPic from '../../Assets/Images/github.svg';
 import cssPic from '../../Assets/Images/CSS3.png';
 import htmlPic from '../../Assets/Images/HTML5.png';
+import reactPic from '../../Assets/Images/reactjs.png';
+import mernPic from '../../Assets/Images/mern.png';
 import './style.css';
 
 function Technologies() {
@@ -25,6 +27,7 @@ function Technologies() {
             <div className="card-body">
                 <div className=" text-center">
                     <img alt="vue" src={vuePic} className="badges" />
+                    <img alt="react" id="react" src={reactPic} className="badges" />
                     <img alt="js" src={jsPic} className="badges" />
                     <img alt="oop" src={oopPic} className="badges" id="oop" />
                     <img alt="jquery" src={jqueryPic} className="badges" />                    
@@ -33,6 +36,7 @@ function Technologies() {
                     <img alt="nodejs" src={nodePic} className="badges" id="nodejs" />
                     <img alt="express" src={expressPic} className="badges" id="expressjs" />
                     <img alt="mongodb" src={monogoPic} className="badges" id="mongodb" />
+                    <img alt="react" id="mern" src={mernPic} className="badges" />
                     <img alt="indexeddb" src={indexPic} className="badges" id="indexeddb" />
                     <img alt="nosql" src={nosqlPic} className="badges" id="nosql" />
                     <img alt="sequelize" src={sequelizePic} className="badges"vid="sequelize" />                            
