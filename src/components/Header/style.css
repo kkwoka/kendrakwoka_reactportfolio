@@ -10,7 +10,7 @@
     border-bottom: 1px dashed teal;
     margin-left: 20px
 }
-/* 
-.nav-item {
-    padding-left: 20px;
-} */
+
+.nav-link {
+    text-align: left;
+}

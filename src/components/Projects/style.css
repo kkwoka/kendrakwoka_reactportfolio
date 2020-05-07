@@ -16,6 +16,8 @@
     left: 20px;
     top: 74px;
     padding: 10px 25px 10px 25px;
+    border-radius: 0px 0px 20px 0px;
+    width: 100px;
 }
 
 .projlabel2 {
@@ -25,8 +27,9 @@
     position: absolute;
     left: 20px;
     top: 30px;
-    padding: 10px 25px 10px 25px;
-    border-radius: 25px 0px 0px 0px ;
+    padding: 10px;
+    border-radius: 25px 25px 0px 0px ;
+    width: 100px;
 }
 
 .portCenter{ 

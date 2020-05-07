@@ -1,40 +1,40 @@
 #koda_img {
     width: 250px;
     margin: 20px;
-    /* margin-left: 50px; */
-    height: 280px;
     border: solid black;
-
 }
 
 #kk_img {
     width: 250px;
     margin: 20px;
     border: solid black;
-
 }
 
 #koda2_img {
     width: 250px;
     margin: 20px;
     border: solid black;
-    height: 280px;
-}
-
-#aboutme {
-    width: 75%;
-    margin: auto;
 }
 
 #pictures {
-    width: 80%;
-    margin: auto;
+    text-align: center;
 }
 
 #main {
     margin-top: 20px;
 }
 
+.col-sm-8, .col-sm-6 {
+    margin: 0 auto;
+}
+
 .bio {
     text-align: center;
+    margin: 25px;
+    font-size: 18px;
+}
+
+h4 {
+    text-align: center;
+    font-style: italic;
 }
