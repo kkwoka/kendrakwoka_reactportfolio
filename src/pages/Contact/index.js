@@ -10,7 +10,7 @@ function Contact() {
                     <div className="col-sm-6">
                         <h1>Resources</h1>
                         <div className="resources">
-                            <p className="resLink"><a className="resLink" target="_blank" rel="noopener noreferrer" href={Resume}><i className="far fa-file-pdf"></i> Resume</a></p>
+                            <p className="resLink"><a className="resLink" href={Resume} download><i className="far fa-file-pdf"></i> Resume</a></p>
                             <p className="resLink"><a className="resLink" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kendra-kwoka-553b68196/" style={{textDecoration: 'none'}}><i className="fab fa-linkedin"></i>  LinkedIn</a></p>
                             <p className="resLink"><a className="resLink" target="_blank" rel="noopener noreferrer" href="https://github.com/kkwoka" style={{textDecoration: 'none'}}><i className="fab fa-github-square"></i>   Github</a></p>
                         </div>
