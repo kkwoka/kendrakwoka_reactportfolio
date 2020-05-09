@@ -5,9 +5,7 @@ import koda2_img from '../../Assets/Images/KodaPretty2.jpg'
 import './style.css';
 import Paper from '@material-ui/core/Paper';
 
-
 function AboutMe() {
-
     return (
         <div id="main" className="container-xs container-sm container-md container-lg container-xl wrapper">
             <h1>About Me</h1>

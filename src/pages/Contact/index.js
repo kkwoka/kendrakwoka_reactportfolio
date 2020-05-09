@@ -18,7 +18,6 @@ function Contact() {
                     <div className="col-sm-6">
                         <h1>Contact</h1>
                         <div className="resources">
-                            {/* <p className="resLink"><i className="fas fa-mobile-alt"></i>    (936) 520.3642</p> */}
                             <p className="resLink"><i className="fas fa-mobile-alt"></i>  <a href="tel:9365203642"> (936) 520.3642 </a></p>
                             <p className="resLink"><i className="far fa-envelope"></i>  <a href="mailto:kendrakwoka@gmail.com"> kendrakwoka@gmail.com </a></p>
                             {/* <p className="resLink"><i className="far fa-envelope"></i> <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=kendrakwoka@gmail.com&tf=1" target="_blank">    kendrakwoka@gmail.com</a></p> */}
@@ -26,18 +25,6 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            {/* <br />
-            <br />
-            <br />
-            <div className="apiHeader">
-                <h5 id="apiH5">Thank You For Taking the Time to Check Out My Portfolio!</h5>
-                <h6>For some fun, Search for images below:</h6>
-                <input id='apiInput' type='text' width='2000px' placeholder="Enter Search Here" />
-                <button id="submit" type="submit">Find Pics!</button>
-                <br />
-            </div>
-                
-            <div id="apiBox" className="container-fluid"></div> */}
         </div>
     )
 }

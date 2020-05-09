@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/aboutme" component={AboutMe} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-        </Wrapper>
+      </Wrapper>
       <Footer />
     </Router>
   );

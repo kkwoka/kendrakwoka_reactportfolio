@@ -1,16 +1,7 @@
 import React from 'react';
 import projectsJSON from './projects.json';
 import { Col, Row, Container } from 'react-bootstrap'
-// import covidPic from '../../Assets/Images/covid.jpg';
-// import smorgasPic from '../../Assets/Images/smorg.png';
-// import readmePic from '../../Assets/Images/readme.webp';
-// import weatherPic from '../../Assets/Images/weather.jpg';
-// import burgerPic from '../../Assets/Images/burger2.jpg';
-// import passGenPic from '../../Assets/Images/password-big.png';
-// import quizPic from '../../Assets/Images/quizz.jpg';
-// import oopPic from '../../Assets/Images/effective-employee-management.jpg';
-// import noteTakerPic from '../../Assets/Images/notes.jpg';
-// import dayPlannerPic from '../../Assets/Images/planner.png'
+
 import './style.css';
 
 function Projects() {
