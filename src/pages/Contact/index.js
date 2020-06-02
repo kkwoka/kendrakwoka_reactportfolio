@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Resume from '../../Assets/Resume 2020 Dev.pdf';
+import Resume from '../../Assets/Resume.pdf';
 
 function Contact() {
     return (

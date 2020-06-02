@@ -19,6 +19,7 @@ import cssPic from '../../Assets/Images/CSS3.png';
 import htmlPic from '../../Assets/Images/HTML5.png';
 import reactPic from '../../Assets/Images/reactjs.png';
 import mernPic from '../../Assets/Images/mern.png';
+import materialuiPic from '../../Assets/Images/material-ui-logo.png';
 import './style.css';
 
 function Technologies() {
@@ -41,6 +42,7 @@ function Technologies() {
                     <img alt="nosql" src={nosqlPic} className="badges" id="nosql" />
                     <img alt="sequelize" src={sequelizePic} className="badges"vid="sequelize" />                            
                     <img alt="bootstrap" src={bootstrapPic} className="badges" id="bootstrap" />
+                    <img alt="materialui" src={materialuiPic} className="badges" id="materialui" />
                     <img alt="pwa" src={pwaPic} className="badges" id="pwa" />
                     <img alt="ajax" src={ajaxPic} className="badges" id="ajax" />
                     <img alt="github" src={githubPic} className="badges" id="github" />

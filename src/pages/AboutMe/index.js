@@ -39,6 +39,7 @@ function AboutMe() {
                     <li>1 year experience creating single-page applications with <b>Vue.js</b></li>
                     <li>Worked in several teams using <b>Agile methodologies and SCRUM</b></li>
                     <li>Experience with structured formats in <b>JSON</b> and <b>XML</b></li>
+                    <li>1 year Front-End UI framework experience with <b>Bootstrap</b> and <b>Material-UI</b></li>
                     <li>Code management using <b>GIT</b></li>
                     <li>Excel in work ethics</li>
                     <li>Detail-oriented and enthusiastic professional with <b>strong technical and analytical skills</b></li>
