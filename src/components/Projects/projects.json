@@ -1,6 +1,16 @@
 [
     {
         "id": 1,
+        "git": "https://github.com/kkwoka/A_La_Board",
+        "heroku": "https://warm-bayou-44198.herokuapp.com/",
+        "img": "../../Assets/Images/ALaBoardLogo2.jpg",
+        "description": "A React.js app for board game enthusiasts to find new games that interest them and save them to their account. Users can then narrow down their saved board games by multiple options (ex: player size, max play time) to pick the perfect board game to play with any party group.",
+        "picName": "ALaBoardLogo2",
+        "name": "aLaBoard"
+    },
+
+    {
+        "id": 2,
         "git": "https://github.com/kkwoka/Project_2",
         "heroku": "https://fast-wildwood-12677.herokuapp.com/#/",
         "img": "../../Assets/Images/C-19.jpg",
@@ -10,7 +20,7 @@
     },
 
     {
-        "id": 2,
+        "id": 3,
         "git": "https://github.com/kkwoka/Smorgas-Chord",
         "heroku": "https://kkwoka.github.io/Smorgas-Chord/",
         "img": "../../Assets/Images/Smorgas-Chord.jpg",
@@ -20,7 +30,7 @@
     },
 
     {
-        "id": 3,
+        "id": 4,
         "git": "https://github.com/kkwoka/WeatherDashboard",
         "heroku": "https://kkwoka.github.io/WeatherDashboard/",
         "img": "../../Assets/Images/Weather_Dashboard.jpg",
@@ -30,7 +40,7 @@
     },
 
     {
-        "id": 4,
+        "id": 5,
         "git": "https://github.com/kkwoka/Eat-Da-Burger",
         "heroku": "https://rocky-ocean-88521.herokuapp.com/",
         "img": "../../Assets/Images/Eat-Da-Burger.jpg",
@@ -40,7 +50,7 @@
     },
 
     {
-        "id": 5,
+        "id": 6,
         "git": "https://github.com/kkwoka/passwordGenerator",
         "heroku": "https://kkwoka.github.io/passwordGenerator/",
         "img": "../../Assets/Images/Password_Generator.png",
@@ -50,7 +60,7 @@
     },
 
     {
-        "id": 6,
+        "id": 7,
         "git": "https://github.com/kkwoka/JavaScript_Quiz",
         "heroku": "https://kkwoka.github.io/JavaScript_Quiz/",
         "img": "../../Assets/Images/Quiz.jpg",
@@ -60,7 +70,7 @@
     },
 
     {
-        "id": 7,
+        "id": 8,
         "git": "https://github.com/kkwoka/NoteTaker",
         "heroku": "https://evening-thicket-00801.herokuapp.com/",
         "img": "../../Assets/Images/Note_Taker.jpg",
@@ -70,7 +80,7 @@
     },
     
     {
-        "id": 8,
+        "id": 9,
         "git": "https://github.com/kkwoka/DailyPlanner",
         "heroku": "https://kkwoka.github.io/DailyPlanner/",
         "img": "../../Assets/Images/Day_Planner.png",
